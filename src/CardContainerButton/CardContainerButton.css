@@ -1,0 +1,25 @@
+/* .button {
+  padding-top: 50px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+} */
+
+/* .button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* grid-template-rows: 1fr 1fr; */
+} */
+
+/* .button button {
+  background-color: #0077cc;
+  color: white;
+  width: 280px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 350px;
+} */

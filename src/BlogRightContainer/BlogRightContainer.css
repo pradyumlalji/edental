@@ -1,0 +1,66 @@
+.RightContainer {
+  border-radius: 25px;
+  width: 49%;
+  
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  /* margin-right: 120px; */
+}
+
+.RightContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.RightPara {
+  margin: 10px;
+ 
+}
+
+.RightPara h2 {
+  color: #324962;
+}
+
+.RightPara h3 {
+  margin: 10px 0;
+  color: #324962;
+}
+
+.RightPara p {
+  color: #9da39a;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1199px){
+  .RightPara h2 {
+  
+    font-size: 20px;
+  }
+
+  .RightPara h3 {
+    font-size: 15px;
+  }
+  .RightPara p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .RightContainer{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 575px){
+  .RightPara h2 {
+    font-size: 18px;
+}
+.RightPara h3 {
+  font-size: 12px;
+}
+.RightPara p {
+  font-size: 10px;
+}
+}

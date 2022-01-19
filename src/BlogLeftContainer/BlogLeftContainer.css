@@ -1,0 +1,148 @@
+.LeftContainer {
+  /* margin-left: 100px; */
+  /* padding-left: 40px; */
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  /* align-content: space-between; */
+}
+
+.LeftContainer h2 {
+  margin-left: 15px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.ImgContainer {
+  width: 40%;
+  height: auto;
+}
+.BoxImg {
+  width: 100%;
+  min-width: 40%;
+  /* height: auto; */
+  /* padding-bottom: 15px; */
+  /* margin-bottom: 15px; */
+  border-radius: 10px;
+  /* padding: 0 2%; */
+  /* padding-left: 80px; */
+}
+
+.box1 {
+  display: flex;
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+
+  /* justify-items: center; */
+}
+
+.box1 h3 {
+  font-size: 25px;
+  color: #324962;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box1 p {
+  padding-top: 5px;
+}
+
+.BoxContent {
+  width: 100%;
+  color: #324962;
+  padding-left: 3%;
+  /* padding-right: 10px; */
+}
+
+.date {
+  color: #324962;
+  font-size: 13px;
+}
+
+.paragragh {
+  display: inline-block;
+  color: #9da39a;
+  font-weight: 600;
+  width: 100%;
+}
+.paragragh p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .BoxImg {
+    width: 100%;
+  }
+
+  .ImgContainer {
+    width: 50%;
+  }
+  .box1 h3 {
+    font-size: 20px;
+  }
+  .BoxContent {
+    /* width: %; */
+    color: #324962;
+    padding-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .ImgContainer {
+    max-width: 36%;
+    min-width: 13%;
+    /* min-width: 100%; */
+    height: 106px;
+    /* min-width: 100%; */
+  }
+  .BoxImg {
+    /* width: 140px; */
+    min-width: 40%;
+    height: 100%;
+    /* min-width: 100%; */
+  }
+  .box1 {
+    display: flex;
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto;
+   
+  }
+
+  .BoxContent {
+    max-width: 67%;
+    padding-right: 10px;
+}
+  
+  
+}
+@media only screen and (max-width: 767px){
+  .LeftContainer{
+    width: 100%;
+  }
+  .ImgContainer {
+    
+    
+    height: 150px;
+    
+}
+
+}
+@media only screen and (max-width: 575px){
+  .ImgContainer {
+    height: 105px;
+  }
+  .box1 h3 {
+    font-size: 18px;
+}
+.paragragh p {
+  font-size: 12px;
+}
+}

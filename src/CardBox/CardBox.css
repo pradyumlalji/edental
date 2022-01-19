@@ -1,0 +1,102 @@
+.CardBox {
+  display: flex;
+  justify-items: center;
+}
+.Card1 {
+  /* transition: 0.3s; */
+  border-radius: 5px; /* 5px rounded corners */
+
+  /* Add rounded corners to the top left and the top right corner of the image */
+  /* img {
+        border-radius: 5px 5px 0 0;
+      } */
+}
+.CardImg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.Cards {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3%;
+  /* padding-left: 240px; */
+}
+
+.Card1 {
+  /* height: 390px; */
+  /* max-width: 320px;
+  margin: 0px 10px; */
+
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+  padding-bottom: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.Container1 span {
+  display: grid;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Container1 {
+  padding-top: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container1 h4 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .Container1 h4 {
+    font-size: 12px;
+  }
+
+  .Cards {
+    max-width: 1120px;
+    
+  }
+}
+
+@media only screen and (max-width: 991px) {
+.Cards{
+  max-width: 920px;
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Cards{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .Card1{
+    width: 48%;
+    
+  }
+  .Container1 span{
+  
+      font-size: 10px;
+  }
+  
+}
+@media only screen and (max-width:575px){
+  .Card1{
+    width: 100%;
+  
+    
+  }
+}

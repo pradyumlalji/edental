@@ -1,0 +1,186 @@
+.bannerBg {
+  display: flex;
+    align-items: center;
+  
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 500px;
+    
+ 
+ 
+  
+}
+
+.BannerBody{
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+
+.Banner-wrap {
+  background: url(../image/smile1.png) no-repeat;
+  background-size: 500px 500px;
+  background-position: bottom right;
+  margin-bottom: 80px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.points {
+  font-size: 24px;
+}
+
+
+
+.BannerContentParent {
+  max-width: 1170px;
+  /* margin: 0 auto; */
+  min-height: 500px;
+  display:flex;
+  flex-direction: column;
+  min-height: 500px;
+  
+  justify-content: center;
+  
+
+}
+
+.BannerContent1 {
+  
+  color: #324755;
+}
+
+.BannerContent1 h1 {
+  font-size: 50px;
+  width: 50%;
+  font-weight: 600;
+}
+
+.BannerContent2 {
+  color: #324755;
+  display: relative;
+
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.askButtonParent {
+  position: relative;
+  
+ 
+}
+
+.AskButton {
+  position: absolute;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #0077cc;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .banner-img {
+    width: 41%;
+    height: auto;
+    margin-top: 5%;
+    object-fit: cover;
+  }
+  .BannerBody{
+  max-width: 1120px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+
+  .BannerContent1 h1 {
+    /* padding-top: 30px; */
+    font-size: 45px;
+  }
+  .BannerContent2 {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .BannerContent1 h1 {
+    font-size: 40px;
+  }
+
+  .BannerBody{
+    max-width: 920px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .Banner-wrap {
+    background-size: 300px 300px;
+}
+.BannerContent2 {
+  padding-top: 15px;
+}
+.BannerContent1 h1 {
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.BannerContentParent{
+  min-height: 300px;
+}
+
+.BannerContent2 p{
+  font-size: 14px;
+}
+.AskButton{
+  width: 100px;
+  height: 23px;
+  width: 100px;
+  height: 23px;
+  font-weight: 600;  
+  margin-top: 10px;
+  font-size: 10px;
+}
+.BannerBody{
+  max-width: 710px;
+}
+
+
+}
+@media only screen and (max-width: 575px){
+  .BannerBody{
+    max-width: 535px;
+  }
+  .BannerContent1 h1 {
+    font-size: 16px;
+    font-weight: 700;
+   
+  }
+  .Header_right ul{
+    grid-gap: 0;
+    gap: 0;
+  }
+
+  .Banner-wrap {
+    background-size: 200px 200px;
+}
+.BannerContent2 { 
+  line-height: 20px;
+  }
+  .BannerContentParent{
+    min-height: 220px;
+  }
+  .BannerContent2 p{
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+}

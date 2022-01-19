@@ -1,0 +1,108 @@
+.blogMainBody {
+  padding-bottom: 50px;
+}
+
+.BlogBody {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+ 
+  
+}
+
+.Heading {
+  padding-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #324755;
+  /* margin-left: 30px; */
+  font-size: 40px;
+  padding: 5% 0;
+}
+.button {
+  padding-top: 50px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.BlogBody.see-tickets {
+justify-content: inherit;
+display: block;
+text-align: right;
+
+}
+.Arrow {
+  margin-top: 25px;
+
+}
+
+.Arrow button {
+ 
+  color: #0585ff;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  background-color: inherit;
+}
+
+.ArrowBtn {
+  background-color: #0585ff;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+ 
+}
+
+@media only screen and (max-width: 1199px) {
+  .blogMainBody {
+    max-width: 1120px;
+    padding: 0 15px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .blogMainBody{
+    max-width: 920px;
+  }
+
+ 
+  
+
+
+
+}
+
+@media only screen and (max-width:767px){
+  .blogMainBody{
+    max-width: 710px;
+  }
+  .Heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .BlogBody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width:575px){
+  .Heading {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+}
